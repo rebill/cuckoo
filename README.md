@@ -28,7 +28,7 @@ Ensure the `.htaccess` and `index.php` files are in the same `public` directory.
 
 ### Nginx
 
-Your nginx configuration file should contain this code (along with other settings you may need) in your `location` block:
+Your nginx configuration file should contain this code (along with other settings you may need) in your `server` block:
 
     root /your/site/public;
     if (!-e $request_filename){
