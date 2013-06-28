@@ -15,6 +15,22 @@ Requirements
 
 You need **PHP >= 5.3.0**.
 
+INSTALLATION
+------------
+
+Please make sure the release file is unpacked under a Web-accessible
+directory. You shall see the following files and directories:
+
+    app              your app floder
+      controllers    your controller file
+      models         your model file
+      views          your template file
+    cuckoo           Cuckoo framework floder
+      core           Cuckoo core
+    public           public-accessible floder
+      index.php      singleton entrypoint
+    Cuckoo.php       Cuckoo framework bootstrap
+
 Configuration
 -------------
 
